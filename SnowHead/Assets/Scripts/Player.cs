@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
 
     public static int health = 100;
+    public GameObject snowman;
 
     public Image[] HpBar;
 
@@ -29,6 +30,7 @@ public class Player : MonoBehaviour
         }
 
         HealthBarCalc();
+        FacingCalc();
     }
 
     void FixedUpdate()
@@ -85,7 +87,17 @@ public class Player : MonoBehaviour
             Die();
         }
     }
-
+    void FacingCalc()
+    {
+        if(movement.x < 0)
+        {
+            snowman.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else if (movement.x > 0)
+        {
+            snowman.GetComponent<SpriteRenderer>().flipX = false;
+        }
+    }
     void Die()
     {
         Debug.Log("Dead");

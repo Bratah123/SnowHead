@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 8cf8ac0f8f26dfc458603196a4ff49fb
+guid: 3ac027da356bd2d4ea6593b8de9f1589
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7767483330201120281
-    second: snowman0000_0
+      213: -4857489031070015718
+    second: Snowman0001_0
   - first:
-      213: -3840867536645717210
-    second: snowman0000_1
+      213: -4622892114130339061
+    second: Snowman0001_1
   - first:
-      213: -6948781288004207258
-    second: snowman0000_2
+      213: 4526254499171637583
+    second: Snowman0001_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: snowman0000_0
+      name: Snowman0001_0
       rect:
         serializedVersion: 2
         x: 0
@@ -109,14 +109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 031b769ce4f268449ade21ae4f5393ba
-      internalID: -7767483330201120281
+      spriteID: f879f2619778b654dad8948357fb884c
+      internalID: -4857489031070015718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowman0000_1
+      name: Snowman0001_1
       rect:
         serializedVersion: 2
         x: 32
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f018c45e4b69df44f906af5f30b42705
-      internalID: -3840867536645717210
+      spriteID: 0371ecae42d0e1849aadefb86e14f7c5
+      internalID: -4622892114130339061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowman0000_2
+      name: Snowman0001_2
       rect:
         serializedVersion: 2
         x: 64
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f54c2c5a0fceb3641935472fdef1b45d
-      internalID: -6948781288004207258
+      spriteID: 6300d8258b5d78e439a4d8a1e4ad1a49
+      internalID: 4526254499171637583
       vertices: []
       indices: 
       edges: []
